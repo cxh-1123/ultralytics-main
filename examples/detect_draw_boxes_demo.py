@@ -13,7 +13,7 @@ import cv2
 from ultralytics import YOLO
 
 # Pretrained on COCO: person, car, bus, dog, ...
-MODEL = "yolo26s.pt"
+MODEL = "yolo26n.pt"
 SOURCE = r"D:\Cxh\my love"
 # Where to write images with boxes (created if missing)
 OUT_DIR = Path(__file__).resolve().parent / "detect_outputs"
